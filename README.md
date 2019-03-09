@@ -11,6 +11,13 @@ Using [Beautiful](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Soup 4
 ### Screenshot:
 ![Powershell Screenshot](https://github.com/baget/pyFlightHub/raw/master/screenshots/screenshot1.jpg "Powershell screenshot")
 
+### Using:
++ Clone the repo
++ Goto into the workspace of repo
++ Create venv: `python -m venv <whatever>` e.g. `python -m venv flighthub`
++ Activate venv: e.g `source ./flighthub/bin/activate` or `flighthub\Scripts\Activate.ps1`
++ Install depedncy packages using pip: `pip install -r requirements.txt`
++ Run the script: `./src/pyFlightHub.py`
 
 ### TODO:
 1. Add an option to display only a particular version or build.
