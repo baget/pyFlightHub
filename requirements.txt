@@ -4,7 +4,7 @@ Automat==0.7.0
 autopep8==1.4.4
 beautifulsoup4==4.8.0
 bs4==0.0.1
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 colorclass==2.2.0
