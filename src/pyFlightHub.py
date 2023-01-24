@@ -17,7 +17,10 @@ class Win10Version(Enum):
     v19H1 = auto()
     #v19H2 = auto()
     v20H1 = auto()
-
+    v21H1 = auto()
+    v21H2 = auto()
+    v22H2 = auto()
+    
     def __str__(self):
         return self.name[1:]
 
@@ -37,9 +40,13 @@ def getOSTable(os: Win10Version):
 
     found = False
     for div in divList:
-        if (str(os).lower() in div['id']):
-            found = True
-            break
+        try:
+            if (str(os).lower() in div['id']):
+                found = True
+                break
+        except:
+            continue
+
 
     if (found == False):
         return []
